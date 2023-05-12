@@ -6,7 +6,7 @@ app.register_blueprint(news_bp)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World!</p> <button>press</button"
 
 
 
